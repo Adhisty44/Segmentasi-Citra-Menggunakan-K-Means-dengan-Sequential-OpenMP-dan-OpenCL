@@ -144,10 +144,10 @@ Proyek ini melakukan analisis terhadap:
 
 ## Link Video Presentasi
 
-https://youtube.com/xxxxxxxx
+https://youtu.be/kLXbI_prUdA
 
 ---
 
 ## Link Repository GitHub
 
-https://github.com/xxxxxxxx
+https://github.com/Adhisty44/Segmentasi-Citra-Menggunakan-K-Means-dengan-Sequential-OpenMP-dan-OpenCL/pull/new/master
