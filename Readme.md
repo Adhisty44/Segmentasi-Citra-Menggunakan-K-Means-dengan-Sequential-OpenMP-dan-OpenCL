@@ -69,6 +69,11 @@ projek_akhir/
 
 ## Cara Kompilasi
 
+jika pakai g++
+'''
+g++ main.cpp sequential.cpp openmp_kmeans.cpp opencl_kmeans.cpp utils.cpp -o kmeans_benchmark.exe -I"C:\msys64\mingw64\include\opencv4" -L"C:\msys64\mingw64\lib" -lopencv_core -lopencv_imgcodecs -lopencv_imgproc -fopenmp -lOpenCL
+'''
+
 Jika menggunakan Makefile:
 
 ```
@@ -96,7 +101,7 @@ pada sistem Windows.
 Format umum:
 
 ```bash
-./kmeans_benchmark <nama_gambar> <jumlah_iterasi>
+./kmeans_benchmark ./input/<nama_gambar> <jumlah_pixels>
 ```
 
 Contoh:
