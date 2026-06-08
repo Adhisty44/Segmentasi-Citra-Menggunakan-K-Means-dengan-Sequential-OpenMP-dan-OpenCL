@@ -188,6 +188,6 @@ void saveResult(const  string& path, const float* centroids, const int* labels,
         );
     }
 
-    imwrite(path + "/output", img);
+    imwrite(path , img);
     cout << "  [OK] Gambar tersimpan: " << path << std::endl;
 }
